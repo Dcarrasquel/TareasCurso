@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="selector">
+        <div class="cuadrado orangered" onclick="cambiafondo('orangered')"></div>
+        <div class="cuadrado green" onclick="cambiafondo('green')"></div>
+        <div class="cuadrado black" onclick="cambiafondo('black')"></div>
+    </div>
+    <style>
+        .cuadrado {
+            height: 200px;
+            width: 200px;
+ }
+ .orangered{
+     background-color: orangered;
+ }
+ .green{
+     background-color: green;
+ }
+ .black{
+     background-color: black;
+ }
+ 
+    </style>
+    <script>
+        function cambiafondo(color){
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+</body>
+
+</html>
