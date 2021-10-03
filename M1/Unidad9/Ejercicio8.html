@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="EstiloE6.css">
+    <title>Proyecto bootstrap</title>
+</head>
+
+<body>
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">CONTACTAME +54911335522100</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold">Diego Carrasquel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Ejercicio6.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Email">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribeme</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="imgA.jpg" class="d-block w-100" alt="slide1">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="imgB.jpg" class="d-block w-100" alt="slide2">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="imgC.jpg" class="d-block w-100" alt="slide3">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Un profesional dedicado al<span class="text-primary"> FRONT END </span>
+        </h1>
+        <p class="p-3 fs-4">Apreciable Lector lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium
+            dolore, similique hic deserunt placeat quibusdam possimus velit nisi accusantium quae harum reprehenderit
+            veniam animi itaque sint officia, sit in?<span class="text-primary"> TE AYUDO?</span></p>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto serviciofila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="imgD.jpg" alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">DESARROLLO</h3>
+                    <p class="px-4">Desarrollo de Webs a la medida de tus necesidades</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="imgG.jpg" alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">MANTENIMIENTO WEB</h3>
+                    <p class="px-4">Auditoria, control y mantenimiento de tu sitio desarrollado por otros</p>
+                </div>
+            </div>
+        </div>
+        <div class="row w-75 mx-auto serviciofila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="imgF.jpg" alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">OPTIMIZACIÓN EN BUSCADORES</h3>
+                    <p class="px-4">Prepacion y adaptabilidad de tu web para que sea competitiva en los buscadores mas
+                        utilizados</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="imgE.jpg" alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">CONTENIDOS</h3>
+                    <p class="px-4">Creacion y Edicion de contenidos </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño<span class="text-primary"> Mejores resultados</span></h1>
+            <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, natus. Impedit doloribus
+                cum iste voluptatem nulla quas deserunt in. Ducimus corporis at et officiis accusamus eveniet, dolores
+                repudiandae amet consequuntur!</p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="imgH.jpg" alt="equipodetrabajo">
+        </div>
+
+    </section>
+
+    <div class="container">
+        <h2 class="fs-20 m-auto text-center mt-3 mb-3 text-primary">Visitanos</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889462!2d-58.38375908424891!3d-34.60373446500685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1633271005764!5m2!1ses!2sar"
+            width="1200" height="450" style="border: 50px;;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+    <form class="container-fluid">
+        <h2 class="fs-20 m-auto text-center mt-3 mb-3 text-primary">Contactanos</h2>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ingresa tu numero</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Te llamaremos enseguida</div>
+        </div>
+
+        <button type="submit" class="mb-3 btn btn-primary">Enviar</button>
+    </form>
+
+    <footer class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Creado por Diego Carrasquel</p>
+
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
